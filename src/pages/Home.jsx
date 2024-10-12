@@ -1,6 +1,7 @@
 import { Categories } from "../assets/mockData";
 import Heropage from "../assets/Images/shopp.jpg";
 import { useNavigate } from "react-router-dom";
+import InfoSection from "../components/InfoSection";
 const Home = () => {
   const navigate = useNavigate();
   return (
@@ -42,6 +43,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <InfoSection />
     </div>
   );
 };
